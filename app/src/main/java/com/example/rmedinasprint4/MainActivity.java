@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 import com.example.rmedinasprint4.databinding.ActivityMainBinding;
@@ -11,6 +12,7 @@ import com.example.rmedinasprint4.databinding.ActivityMainBinding;
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;
+    private static final String TAG = "MainActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intento);
             }
         });
+
+        Log.i(TAG, "El intent funciona");
 
 
     }

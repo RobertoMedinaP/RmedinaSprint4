@@ -6,6 +6,7 @@ import androidx.appcompat.widget.Toolbar;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -16,6 +17,7 @@ import com.example.rmedinasprint4.databinding.Activity2Binding;
 public class Activity2 extends AppCompatActivity {
 
     private Activity2Binding binding;
+    private static final String TAG = "Activity2";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,6 +54,8 @@ public class Activity2 extends AppCompatActivity {
             }
         });
 
+        Log.i(TAG,"Boton volver funciona");
+
         binding.bexit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -85,6 +89,8 @@ public class Activity2 extends AppCompatActivity {
                 return false;
             }
         });
+
+        Log.i(TAG,"La barra funciona");
 
 
 
