@@ -44,6 +44,21 @@ public class Activity2 extends AppCompatActivity {
             }
         });
 
+        binding.bback.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Activity2.this, MainActivity.class);
+                startActivity(i);
+            }
+        });
+
+        binding.bexit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finishAffinity();
+            }
+        });
+
         binding.btcorreo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

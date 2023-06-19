@@ -92,4 +92,26 @@
 
     </com.google.android.material.textfield.TextInputLayout>
 
+    <ImageButton
+        android:id="@+id/bback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btcorreo"
+        android:contentDescription="@string/content_description_media"
+        app:srcCompat="@drawable/arrow_back_fill0_wght400_grad0_opsz48" />
+
+    <ImageButton
+        android:id="@+id/bexit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:contentDescription="@string/content_description_media"
+        app:layout_constraintTop_toBottomOf="@+id/btcorreo"
+        app:srcCompat="@drawable/close_fill0_wght400_grad0_opsz48" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
