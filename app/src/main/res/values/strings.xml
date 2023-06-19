@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RmedinaSprint4</string>
+    <string name="nombre">Roberto Medina</string>
+    <string name="contactame">Contactame</string>
+    <string name="ocupacion">Estudiando Desarrollo de apps Android y Médico Veterinario.</string>
+    <string name="motivacion">Busco reinventarme laboralmente en el mundo TI. Soy Médico Veterinario con 10 años de experiencia, habilidades blandas y ganas de aplicar lo que aprenderé en el bootcamp de Talento Digital.</string>
+    <string name="content_description_media">foto de perfil</string>
+    <string name="extended_fab_content_desc">foto de icono</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="correo">Enviar correo</string>
+    <string name="whatsapp">Whatsapp</string>
+    <string name="soy">¿Quién soy yo?</string>
+    <string name="edit">editar</string>
+    <string name="github">Github</string>
+    <string name="esccorreo">Escribeme un correo</string>
+
+</resources>
